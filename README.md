@@ -20,7 +20,7 @@ This plugin simplifies the process of importing and retargeting Mixamo animation
 1. Import your Mixamo FBX file(s) into your Godot project using ufbx.
 2. In the FileSystem dock, right-click on the FBX file(s) you want to retarget.
 3. Select "Retarget Mixamo Animation" from the context menu.
-4. Choose a destination folder for the exported animation(s).
+4. Retargeted animations will be saved in the same folder as original FBX files.
 5. The plugin will automatically update the import settings, retarget the animation(s), and save them as .res files in the specified folder.
 6. Ensure your character model has a Skeleton3D node named "Skeleton" for the exported animations to work correctly. 
 7. Ensure your Character Skeleton is also retargeted using Bone Mapping. This ensures both the animation and the skeleton will share the same bone names.
@@ -28,7 +28,7 @@ This plugin simplifies the process of importing and retargeting Mixamo animation
 
 ## Requirements
 
-- Godot 4.3
+- Godot 4.3+
 
 ## Configuration
 
